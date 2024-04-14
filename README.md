@@ -1,16 +1,16 @@
 # Intro to Tools Development Workshop
-A GDAC Workshop introducing game engine editor tooling!
-Held Spring Quarter 4/16/2024
+### A GDAC Workshop introducing game engine editor tooling! (Spring Quarter, 4/16/2024)
 
-This is the project used for the workshop activity. After starting the project, open the scenes in the folder labeled "Edit Me!"
+This Unity project is the activity portion of the workshop.
 
-Each scene is an incomplete level, with notes left by the previous designer on their goals. Use the prefabs provided to finish designing the level!
-However, designing with no visual aids is tricky business, so you'll have to dive into the scripts and add your own to aid in the design process!
+1.  After starting the project, open the scenes in the folder labeled "Edit Me!"
+2. Each scene is an incomplete level, with notes left by the previous designer on their goals. Use the prefabs provided to finish designing the level!
+3. However, designing with no visual aids is tricky business, so you'll have to dive into the scripts and add your own to aid in the design process!
+4. Design, Improve the tools, iterate, repeat!
 
-See
+Useful References:
 https://docs.unity3d.com/ScriptReference/Gizmos.html
 and
 https://docs.unity3d.com/ScriptReference/Handles.html
-for reference!
 
-Made with Unity 2022.3.21f1
+_Made with Unity 2022.3.21f1_
