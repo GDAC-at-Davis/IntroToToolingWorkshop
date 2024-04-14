@@ -1,4 +1,4 @@
-# FriendlierToolsWorkshop
+# Intro to Tools Development Workshop
 A GDAC Workshop introducing game engine editor tooling!
 Held Spring Quarter 4/16/2024
 
