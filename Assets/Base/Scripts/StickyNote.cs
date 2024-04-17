@@ -36,6 +36,8 @@ public class StickyNote : MonoBehaviour
         var style = new GUIStyle();
         style.normal.textColor = _textColor;
         style.alignment = TextAnchor.UpperCenter;
+        // bold
+        style.fontStyle = FontStyle.Bold;
         
         var stickyNotePosition = transform.position + Vector3.down * 0.25f;
         

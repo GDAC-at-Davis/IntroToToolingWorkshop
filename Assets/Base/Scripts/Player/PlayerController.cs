@@ -27,6 +27,8 @@ public class PlayerController : MonoBehaviour
     private float _yVelocity;
 
     private int _animState = Animator.StringToHash("State");
+    
+    private bool _wasGrounded;
 
     private void Update()
     {
@@ -65,14 +67,14 @@ public class PlayerController : MonoBehaviour
             _currentHorizontalVelocity = Vector2.MoveTowards(_currentHorizontalVelocity, Vector2.zero, _moveStats.moveFriction * Time.deltaTime);
         }
         
+        _wasGrounded = _charController.isGrounded;
+        
         // Move!
         _charController.Move(new Vector3(_currentHorizontalVelocity.x, _yVelocity, _currentHorizontalVelocity.y) * Time.deltaTime);
 
         
         var velocity = _charController.velocity;
         _currentHorizontalVelocity = new Vector2(velocity.x, velocity.z);
-        _yVelocity = velocity.y;
-
     }
 
     private void HandleVerticalMovement()
@@ -80,6 +82,15 @@ public class PlayerController : MonoBehaviour
         // Gravity
         _yVelocity += Physics.gravity.y * Time.deltaTime;
 
+        if( _charController.isGrounded && _yVelocity < 0)
+        {
+            _yVelocity = -10f;
+        }
+        
+        // limit fall speed
+        
+        if(!_charController.isGrounded && _wasGrounded)
+            _yVelocity = Mathf.Max(_yVelocity, 0);
         
         // Jump
         if (Input.GetKeyDown(KeyCode.Space) && _charController.isGrounded)
@@ -132,5 +143,10 @@ public class PlayerController : MonoBehaviour
             }
         }
 
+    }
+
+    public void Launch(float jumpHeight)
+    {
+        _yVelocity = Mathf.Sqrt(jumpHeight * -2f * Physics.gravity.y);
     }
 }
