@@ -15,9 +15,6 @@ public class KillerDrone : MonoBehaviourDevNote
     private void OnDrawGizmos()
     {
         // DRAW YOUR TOOL UI HERE!
-        
-        Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(transform.position, AttackRadius);
     }
 
     private void OnDrawGizmosSelected()
