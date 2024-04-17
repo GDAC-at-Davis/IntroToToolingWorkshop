@@ -28,7 +28,15 @@ public class MovingSpike : MonoBehaviourDevNote
     #region Moving Spike Behavior
 
     private int _currentWaypointIndex;
-    
+
+    private void Start()
+    {
+        // start at the first waypoint
+        _currentWaypointIndex = 0;
+        
+        transform.position = Waypoints[_currentWaypointIndex].position;
+    }
+
     private void Update()
     {
         if (Waypoints.Count == 0)

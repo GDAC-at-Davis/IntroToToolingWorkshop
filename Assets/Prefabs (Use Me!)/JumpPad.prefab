@@ -4878,7 +4878,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _devNote: Launches the player up when touched!
-  JumpHeight: 6.4
+  JumpHeight: 6
   JumpPadTrigger: {fileID: 3127495705508999454}
 --- !u!135 &3127495705508999454
 SphereCollider:
