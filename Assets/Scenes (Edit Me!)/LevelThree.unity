@@ -15319,18 +15319,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1295023371612451357, guid: 307186faf9dcdd04bb6eab6d9d35ae86, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -9.29
-      objectReference: {fileID: 0}
-    - target: {fileID: 1295023371612451357, guid: 307186faf9dcdd04bb6eab6d9d35ae86, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1295023371612451357, guid: 307186faf9dcdd04bb6eab6d9d35ae86, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 10.7
-      objectReference: {fileID: 0}
     - target: {fileID: 1354113682680102048, guid: 307186faf9dcdd04bb6eab6d9d35ae86, type: 3}
       propertyPath: m_Name
       value: MovingSpikeSetup
@@ -15374,30 +15362,6 @@ PrefabInstance:
     - target: {fileID: 1521136980248785205, guid: 307186faf9dcdd04bb6eab6d9d35ae86, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4087023988508086969, guid: 307186faf9dcdd04bb6eab6d9d35ae86, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 13.710001
-      objectReference: {fileID: 0}
-    - target: {fileID: 4087023988508086969, guid: 307186faf9dcdd04bb6eab6d9d35ae86, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4087023988508086969, guid: 307186faf9dcdd04bb6eab6d9d35ae86, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 13.7
-      objectReference: {fileID: 0}
-    - target: {fileID: 5655346249072580839, guid: 307186faf9dcdd04bb6eab6d9d35ae86, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 10.21
-      objectReference: {fileID: 0}
-    - target: {fileID: 5655346249072580839, guid: 307186faf9dcdd04bb6eab6d9d35ae86, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 5655346249072580839, guid: 307186faf9dcdd04bb6eab6d9d35ae86, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -3.8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
