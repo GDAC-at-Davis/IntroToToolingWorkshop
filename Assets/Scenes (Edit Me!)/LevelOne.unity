@@ -133,7 +133,10 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5071261721981495031, guid: 6fe146e4c81b7ab42a58b0b9a412db44, type: 3}
       propertyPath: _note
-      value: Try to have the jump pads launch the player just barely high enough!
+      value: 'Make sure the jump pads launch the player the perfect height,
+
+        so
+        they can casually step onto the platform with such grace!'
       objectReference: {fileID: 0}
     - target: {fileID: 5071261721981495031, guid: 6fe146e4c81b7ab42a58b0b9a412db44, type: 3}
       propertyPath: _textColor.b
@@ -9806,7 +9809,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5984941642608529292, guid: 6fe146e4c81b7ab42a58b0b9a412db44, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 17
+      value: 9.5
       objectReference: {fileID: 0}
     - target: {fileID: 5984941642608529292, guid: 6fe146e4c81b7ab42a58b0b9a412db44, type: 3}
       propertyPath: m_LocalPosition.z

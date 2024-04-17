@@ -138,7 +138,11 @@ PrefabInstance:
 
 
         You''ll have to carefully place the drones and adjust
-        their targetting range!'
+        their targetting range!
+
+
+        I''ve placed one for you as an example,
+        but I have to feed my cats so please finish this thanks'
       objectReference: {fileID: 0}
     - target: {fileID: 5071261721981495031, guid: 6fe146e4c81b7ab42a58b0b9a412db44, type: 3}
       propertyPath: _textColor.b
@@ -154,7 +158,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5984941642608529292, guid: 6fe146e4c81b7ab42a58b0b9a412db44, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.25
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5984941642608529292, guid: 6fe146e4c81b7ab42a58b0b9a412db44, type: 3}
       propertyPath: m_LocalPosition.y
@@ -162,7 +166,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5984941642608529292, guid: 6fe146e4c81b7ab42a58b0b9a412db44, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -5.25
+      value: -4
       objectReference: {fileID: 0}
     - target: {fileID: 5984941642608529292, guid: 6fe146e4c81b7ab42a58b0b9a412db44, type: 3}
       propertyPath: m_LocalRotation.w

@@ -315,11 +315,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5984941642608529292, guid: 6fe146e4c81b7ab42a58b0b9a412db44, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 30.5
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 5984941642608529292, guid: 6fe146e4c81b7ab42a58b0b9a412db44, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 5984941642608529292, guid: 6fe146e4c81b7ab42a58b0b9a412db44, type: 3}
       propertyPath: m_LocalPosition.z
@@ -13410,33 +13410,13 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1934667502}
     m_Modifications:
-    - target: {fileID: 5071261721981495031, guid: 6fe146e4c81b7ab42a58b0b9a412db44, type: 3}
-      propertyPath: _note
-      value: 'For the last level, the player must bypass the moving spikes!
-
-
-        Make
-        sure at least one spike passes through EVERY SINGLE PLATFORM!'
-      objectReference: {fileID: 0}
-    - target: {fileID: 5071261721981495031, guid: 6fe146e4c81b7ab42a58b0b9a412db44, type: 3}
-      propertyPath: _textColor.b
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5071261721981495031, guid: 6fe146e4c81b7ab42a58b0b9a412db44, type: 3}
-      propertyPath: _textColor.g
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5071261721981495031, guid: 6fe146e4c81b7ab42a58b0b9a412db44, type: 3}
-      propertyPath: _textColor.r
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 5984941642608529292, guid: 6fe146e4c81b7ab42a58b0b9a412db44, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 5984941642608529292, guid: 6fe146e4c81b7ab42a58b0b9a412db44, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 4.25
+      value: 8.5
       objectReference: {fileID: 0}
     - target: {fileID: 5984941642608529292, guid: 6fe146e4c81b7ab42a58b0b9a412db44, type: 3}
       propertyPath: m_LocalPosition.z

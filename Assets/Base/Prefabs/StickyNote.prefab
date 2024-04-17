@@ -44,11 +44,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1caf61b88d1e05e46bca81743f8baeaa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _note: 'Make the game better, NOW
+  _note: 'For the last level, the player must bypass the moving spikes!
 
-    >:(
 
-    asdfasdf
-
-    asdfasdfasdf'
-  _textColor: {r: 0.32702148, g: 1, b: 0, a: 1}
+    Make
+    sure at least one spike passes through EVERY SINGLE PLATFORM!'
+  _textColor: {r: 0, g: 0, b: 0, a: 1}
